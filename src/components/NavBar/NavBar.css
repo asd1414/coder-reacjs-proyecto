@@ -1,0 +1,28 @@
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gameverseLogo{
+    height: 50px;
+    margin: 10px;
+}
+
+.categorias{
+    display: flex;
+    list-style: none;
+    align-items: end;
+}
+
+.categorias li{
+    margin: 0 15px;
+}
+
+.carrito{
+    height: 55px;
+    margin: 5px;
+}
