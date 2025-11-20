@@ -4,70 +4,70 @@
     "name": "Assassin's Creed Shadows",
     "price": 60000,
     "stock": 20,
-    "img": ""
+    "img": "/img/assassins-creed-shadows.jpg"
   },
   {
     "id": 2,
     "name": "Control",
     "price": 40000,
     "stock": 20,
-    "img": ""
+    "img": "/img/control.jpg"
   },
   {
     "id": 3,
     "name": "Dead Island 2",
     "price": 50000,
     "stock": 20,
-    "img": ""
+    "img": "/img/dead-island-dos.jpg"
   },
   {
     "id": 4,
     "name": "Frostpunk 2",
     "price": 45000,
     "stock": 20,
-    "img": ""
+    "img": "/img/frostpunk-dos.jpg"
   },
   {
     "id": 5,
     "name": "Palworld",
     "price": 30000,
     "stock": 20,
-    "img": ""
+    "img": "/img/palworld.jpg"
   },
   {
     "id": 6,
     "name": "Prince Of Persia, The Lost Crown",
     "price": 55000,
     "stock": 20,
-    "img": ""
+    "img": "/img/prince-of-persia.jpg"
   },
   {
     "id": 7,
     "name": "Resident Evil 2",
     "price": 35000,
     "stock": 20,
-    "img": ""
+    "img": "/img/resident-evil-dos.jpg"
   },
   {
     "id": 8,
     "name": "Resident Evil 7",
     "price": 35000,
     "stock": 20,
-    "img": ""
+    "img": "  /img/resident-evil-siete.jpg"
   },
   {
     "id": 9,
     "name": "Robocop, Rogue City",
     "price": 20000,
     "stock": 20,
-    "img": ""
+    "img": "/img/robocop.jpg"
   },
   {
     "id": 10,
     "name": "Sniper Elite 4",
     "price": 30000,
     "stock": 20,
-    "img": ""
+    "img": "/img/sniper-elite-cuatro.jpg"
   },
   {
     "id": 11,
@@ -75,6 +75,14 @@
     "descripcion": "",
     "price": 20000,
     "stock": 20,
-    "img": ""
+    "img": "/img/valheim.jpg"
+  },
+  {
+    "id": 12,
+    "name": "The Witcher 3, Wild Hunt",
+    "descripcion": "",
+    "price": 30000,
+    "stock": 20,
+    "img": "/img/witcher-tres.jpg"
   }
 ]

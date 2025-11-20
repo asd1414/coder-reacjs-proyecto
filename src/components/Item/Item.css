@@ -1,0 +1,15 @@
+/* Item.css */
+.item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 200px; /* o el tamaño que desees */
+  text-align: center;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+.item img {
+  width: 100%; /* ajusta la imagen al tamaño del contenedor */
+  height: auto;
+  border-radius: 8px;
+}

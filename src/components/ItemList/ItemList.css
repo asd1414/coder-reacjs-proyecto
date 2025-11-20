@@ -1,0 +1,7 @@
+/* ItemList.css */
+.itemList {
+  display: flex;            /* Usa Flexbox */
+  flex-direction: row;      /* Horizontal */
+  flex-wrap: wrap;          /* En caso que los productos sean muchos, se ajustan en varias líneas */
+  gap: 20px;                /* Espacio entre los productos */
+}
