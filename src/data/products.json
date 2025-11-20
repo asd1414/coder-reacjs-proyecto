@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "Assassin's Creed Shadows",
+    "price": 60000,
+    "stock": 20,
+    "img": ""
+  },
+  {
+    "id": 2,
+    "name": "Control",
+    "price": 40000,
+    "stock": 20,
+    "img": ""
+  },
+  {
+    "id": 3,
+    "name": "Dead Island 2",
+    "price": 50000,
+    "stock": 20,
+    "img": ""
+  },
+  {
+    "id": 4,
+    "name": "Frostpunk 2",
+    "price": 45000,
+    "stock": 20,
+    "img": ""
+  },
+  {
+    "id": 5,
+    "name": "Palworld",
+    "price": 30000,
+    "stock": 20,
+    "img": ""
+  },
+  {
+    "id": 6,
+    "name": "Prince Of Persia, The Lost Crown",
+    "price": 55000,
+    "stock": 20,
+    "img": ""
+  },
+  {
+    "id": 7,
+    "name": "Resident Evil 2",
+    "price": 35000,
+    "stock": 20,
+    "img": ""
+  },
+  {
+    "id": 8,
+    "name": "Resident Evil 7",
+    "price": 35000,
+    "stock": 20,
+    "img": ""
+  },
+  {
+    "id": 9,
+    "name": "Robocop, Rogue City",
+    "price": 20000,
+    "stock": 20,
+    "img": ""
+  },
+  {
+    "id": 10,
+    "name": "Sniper Elite 4",
+    "price": 30000,
+    "stock": 20,
+    "img": ""
+  },
+  {
+    "id": 11,
+    "name": "Valheim",
+    "descripcion": "",
+    "price": 20000,
+    "stock": 20,
+    "img": ""
+  }
+]
