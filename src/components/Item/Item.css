@@ -1,15 +1,25 @@
-/* Item.css */
 .item {
-  border: 1px solid #ccc;
+  border: 1px solid #85bee4;
   padding: 10px;
   margin: 10px;
-  width: 200px; /* o el tamaño que desees */
+  width: 200px;
   text-align: center;
-  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.1);
 }
 
 .item img {
-  width: 100%; /* ajusta la imagen al tamaño del contenedor */
+  width: 100%;
   height: auto;
   border-radius: 8px;
+}
+
+.masInfoBoton{ 
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #141619;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
 }

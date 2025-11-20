@@ -1,0 +1,14 @@
+.carrito{
+    size: 30px;
+    color: rgb(238, 0, 238);
+}
+
+.contadorCarrito{
+    color: rgb(251, 251, 251);
+}
+
+.cartWidget{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

@@ -1,9 +1,13 @@
-import carrito from "../NavBar/carrito.jpg";
+import { BsCart   } from "react-icons/bs";
+import "./CartWidget.css"
+
 
 const CartWidget = () => {
   return (
-    <div>
-        <img className="carrito" src={carrito} alt="" />
+    <div className="cartWidget">
+        
+        <BsCart className="carrito"/>
+        <p className="contadorCarrito">2</p>
     </div>
   )
 }
