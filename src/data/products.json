@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Assassin's Creed Shadows",
     "price": 60000,
-    "stock": 20,
+    "stock": 25,
     "img": "/img/assassins-creed-shadows.jpg",
     "category": "Accion",
     "description": "Embárcate en una aventura épica en 'Assassin's Creed Shadows', donde la oscuridad y la intriga se entrelazan en un mundo vibrante y lleno de vida. Explora ciudades históricas, domina el arte del sigilo y desentraña una conspiración que amenaza con cambiar el curso de la historia. Con gráficos impresionantes y una narrativa envolvente, cada paso que das te acerca más a convertirte en el maestro asesino que el mundo necesita."
@@ -12,7 +12,7 @@
     "id": 2,
     "name": "Control",
     "price": 40000,
-    "stock": 20,
+    "stock": 250,
     "img": "/img/control.jpg",
     "category": "Accion",
     "description": "Sumérgete en el misterioso mundo de 'Control', un juego de acción y aventura que desafía la realidad. Juega como Jesse Faden, quien busca respuestas en la enigmática Agencia Federal de Control. Utiliza poderes sobrenaturales y armas transformadoras para enfrentarte a fuerzas paranormales que amenazan con desatar el caos. Con una atmósfera inquietante y una narrativa intrigante, 'Control' te invita a explorar un entorno dinámico donde cada rincón esconde secretos por descubrir."
@@ -21,7 +21,7 @@
     "id": 3,
     "name": "Dead Island 2",
     "price": 50000,
-    "stock": 20,
+    "stock": 50,
     "img": "/img/dead-island-dos.jpg",
     "category": "Survival",
     "description": "Prepárate para la acción desenfrenada en 'Dead Island 2', la esperada secuela del aclamado juego de supervivencia zombi. Ambientado en un vibrante mundo abierto, este título te sumerge en una California post-apocalíptica infestada de muertos vivientes. Personaliza a tu personaje, mejora tus habilidades y utiliza una amplia variedad de armas para enfrentarte a hordas de zombis mientras exploras playas soleadas, ciudades caóticas y paisajes desolados. Con un enfoque en la cooperación multijugador y una narrativa emocionante, 'Dead Island 2' ofrece una experiencia intensa y llena de adrenalina."
@@ -30,7 +30,7 @@
     "id": 4,
     "name": "Frostpunk 2",
     "price": 45000,
-    "stock": 20,
+    "stock": 22,
     "img": "/img/frostpunk-dos.jpg",
     "category": "RTS",
     "description": "Adéntrate en el gélido mundo de 'Frostpunk 2', la secuela del aclamado juego de estrategia y supervivencia. En esta entrega, te enfrentarás a desafíos aún mayores mientras lideras una ciudad en un planeta helado. Toma decisiones difíciles que afectarán la moral y la supervivencia de tus ciudadanos, desde la gestión de recursos hasta la implementación de leyes drásticas. Con gráficos mejorados y una narrativa profunda, 'Frostpunk 2' te invita a explorar los límites de la humanidad en un entorno implacable donde cada elección puede significar la diferencia entre la vida y la muerte."
@@ -39,7 +39,7 @@
     "id": 5,
     "name": "Palworld",
     "price": 30000,
-    "stock": 20,
+    "stock": 7,
     "img": "/img/palworld.jpg",
     "category": "Survival",
     "description": "Explora un mundo vibrante y lleno de criaturas únicas en 'Palworld', un juego de supervivencia y aventura que combina la captura de monstruos con la construcción y la exploración. En este vasto entorno abierto, podrás domesticar y entrenar a tus propios 'Pals', criaturas con habilidades especiales que te ayudarán en tu viaje. Construye tu base, cultiva recursos y enfréntate a desafíos tanto naturales como humanos mientras descubres los secretos de este fascinante mundo. Con un estilo artístico encantador y una jugabilidad dinámica, 'Palworld' ofrece una experiencia única que mezcla la emoción de la aventura con la estrategia de la supervivencia."
@@ -48,7 +48,7 @@
     "id": 6,
     "name": "Prince Of Persia, The Lost Crown",
     "price": 55000,
-    "stock": 20,
+    "stock": 780,
     "img": "/img/prince-of-persia.jpg",
     "category": "Accion",
     "description": "Embárcate en una aventura épica con 'Prince Of Persia: The Lost Crown', donde el tiempo y el destino se entrelazan en un mundo lleno de misterio y peligro. Juega como el legendario príncipe mientras exploras antiguas ruinas, resuelves acertijos desafiantes y enfrentas enemigos formidables. Con un sistema de combate fluido y habilidades acrobáticas, cada movimiento es crucial para sobrevivir y descubrir los secretos ocultos de la corona perdida. Sumérgete en una narrativa cautivadora que te llevará a través de paisajes impresionantes y desafíos inolvidables."
@@ -57,7 +57,7 @@
     "id": 7,
     "name": "Resident Evil 2",
     "price": 35000,
-    "stock": 20,
+    "stock": 30,
     "img": "/img/resident-evil-dos.jpg",
     "category": "Survival",
     "description": "Revive el terror clásico con 'Resident Evil 2', una reinvención del icónico juego de supervivencia. Juega como Leon S. Kennedy y Claire Redfield mientras luchan por sobrevivir en una Raccoon City infestada de zombis y criaturas mutantes. Con gráficos impresionantes y una atmósfera inquietante, cada esquina oculta peligros mortales y secretos oscuros. Utiliza recursos limitados, resuelve acertijos desafiantes y toma decisiones cruciales que afectarán el destino de los personajes. 'Resident Evil 2' ofrece una experiencia intensa y aterradora que redefine el género de horror."
@@ -66,7 +66,7 @@
     "id": 8,
     "name": "Resident Evil 7",
     "price": 35000,
-    "stock": 20,
+    "stock": 3,
     "img": "  /img/resident-evil-siete.jpg",
     "category": "Survival",
     "description": "Sumérgete en el horror psicológico con 'Resident Evil 7', una entrega que redefine la franquicia de supervivencia. Juega como Ethan Winters mientras explora una plantación abandonada en busca de su esposa desaparecida, enfrentándote a terrores inimaginables y criaturas grotescas. Con una perspectiva en primera persona, el juego ofrece una experiencia inmersiva y aterradora, donde cada sonido y sombra puede significar la diferencia entre la vida y la muerte. Resuelve acertijos, administra recursos limitados y descubre los oscuros secretos que acechan en las profundidades de la mansión. 'Resident Evil 7' es una experiencia inolvidable que desafía tus nervios y habilidades de supervivencia."
@@ -75,7 +75,7 @@
     "id": 9,
     "name": "Robocop, Rogue City",
     "price": 20000,
-    "stock": 20,
+    "stock": 15,
     "img": "/img/robocop.jpg",
     "category": "Shooter",
     "description": "En 'Robocop: Rogue City', asume el papel del icónico cyborg mientras patrullas las calles de una ciudad sumida en el caos. Enfréntate a criminales despiadados y corrupción desenfrenada utilizando una combinación de habilidades humanas y tecnología avanzada. Con un sistema de combate dinámico y misiones desafiantes, cada decisión que tomes afectará el destino de la ciudad. Explora un entorno urbano detallado, mejora tus capacidades y lucha por restaurar el orden en un mundo donde la línea entre el bien y el mal se ha desdibujado. 'Robocop: Rogue City' ofrece una experiencia de acción intensa que captura la esencia del legendario héroe."
@@ -84,7 +84,7 @@
     "id": 10,
     "name": "Sniper Elite 4",
     "price": 30000,
-    "stock": 20,
+    "stock": 110,
     "img": "/img/sniper-elite-cuatro.jpg",
     "category": "Shooter",
     "description": "Adéntrate en la Segunda Guerra Mundial con 'Sniper Elite 4', un juego de disparos táctico que te pone en el papel de un francotirador de élite. Explora vastos entornos abiertos en Italia, utilizando tu sigilo y habilidades de puntería para eliminar objetivos clave y desbaratar operaciones enemigas. Con un sistema de balística realista y una variedad de armas personalizables, cada disparo cuenta mientras te enfrentas a desafíos estratégicos y misiones emocionantes. 'Sniper Elite 4' ofrece una experiencia inmersiva que combina acción intensa con planificación cuidadosa, permitiéndote convertirte en el francotirador definitivo."
@@ -93,7 +93,7 @@
     "id": 11,
     "name": "Valheim",
     "price": 20000,
-    "stock": 20,
+    "stock": 11,
     "img": "/img/valheim.jpg",
     "category": "RPG",
     "description": "Explora un vasto mundo abierto inspirado en la mitología nórdica en 'Valheim', un juego de supervivencia y aventura que te invita a convertirte en un guerrero vikingo. Construye tu asentamiento, caza criaturas míticas y enfréntate a desafiantes jefes mientras descubres los secretos de este reino encantado. Con un sistema de construcción detallado y una jugabilidad cooperativa, puedes formar alianzas con otros jugadores para sobrevivir juntos en un entorno dinámico y peligroso. 'Valheim' ofrece una experiencia única que combina exploración, combate y creatividad en un mundo lleno de maravillas y desafíos."

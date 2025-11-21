@@ -1,0 +1,10 @@
+.cantidadYBoton{
+    margin-top: 10px;
+}
+
+
+.itemCount{
+    display: flex;
+    
+    gap: 10px;
+}

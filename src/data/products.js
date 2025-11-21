@@ -6,7 +6,7 @@ const getProducts = () => {
     setTimeout(() => {
       resolve(products)
 
-    }, 1000);
+    }, 500);
 
   })
 }
