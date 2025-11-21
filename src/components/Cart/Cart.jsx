@@ -9,14 +9,14 @@ const Cart = () => {
 
   const { cart, deleteProductById, totalPrice, deleteCart } = useContext(CartContext);
 
-  if (cart.length === 0) {
-    return (
-      <div>
-        <h2>El carrito está vacío :,( </h2>
-        <Link to="/">Volver al inicio</Link>
-      </div>
-    )
-  }
+if (cart.length === 0) {
+  return (
+    <div>
+      <h2>El carrito está vacío :,( </h2>
+      <Link to="/">Volver al inicio</Link>
+    </div>
+  )
+}
 
 
 
@@ -35,9 +35,11 @@ const Cart = () => {
         ))
       }
       <h2>Total: {totalPrice()}</h2>
+      <button > Realizar la compra</button>
       <button onClick={deleteCart}>Vaciar carrito</button>
+      
     </div>
-
+    
   )
 }
 
