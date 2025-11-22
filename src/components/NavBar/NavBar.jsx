@@ -1,8 +1,10 @@
-import logo from "./gameverselogo.jpg";
-import CartWidget from "../Cartwidget/CartWidget";
-import "./NavBar.css";
 import { Link } from "react-router-dom";
 
+import CartWidget from "../Cartwidget/CartWidget";
+
+import logo from "./gameverselogo.jpg";
+
+import "./NavBar.css";
 
 
 const NavBar = () => {

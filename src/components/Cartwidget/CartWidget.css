@@ -1,14 +1,37 @@
-.carrito{
-    size: 30px;
-    color: rgb(238, 0, 238);
+/* Estilo del contenedor del carrito */
+.cartWidget {
+  display: flex; /* Disposición en línea con flexbox */
+  align-items: center; /* Alinea verticalmente en el centro */
+  background-color: #000000; /* Color de fondo oscuro */
+  color: #fff; /* Color del texto blanco */
+  padding: 10px 15px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  text-decoration: none; /* Sin subrayado en el enlace */
+  transition: background-color 0.3s; /* Transición suave */
+  position: relative; /* Permite posicionar el contador */
 }
 
-.contadorCarrito{
-    color: rgb(251, 251, 251);
+/* Efecto al pasar el ratón sobre el carrito */
+.cartWidget:hover {
+  background-color: #2c2c2c; /* Color más claro al pasar */
 }
 
-.cartWidget{
-    display: flex;
-    align-items: center;
-    gap: 5px;
+/* Estilo del icono del carrito */
+.carrito {
+  font-size: 24px; /* Tamaño del icono */
+}
+
+.contadorCarrito {
+  margin-left: 8px; /* Espacio entre el icono y el número */
+  background-color: #e74c3c; /* Color de fondo del contador */
+  color: #fff; /* Color del texto del contador */
+  border-radius: 50%; /* Hacer el contador circular */
+  padding: 5px 10px; /* Espacio alrededor */
+  position: absolute; /* Permitir la colocación en el icono */
+  top: -5px; /* Ajustar posición vertical */
+  right: -10px; /* Ajustar posición horizontal */
+  font-size: 14px; /* Tamaño de fuente del contador */
+  display: flex; /* Usar flexbox para centrar texto */
+  align-items: center; /* Centrar verticalmente el texto */
+  justify-content: center; /* Centrar horizontalmente */
 }

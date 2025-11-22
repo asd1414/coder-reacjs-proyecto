@@ -1,0 +1,49 @@
+/* Estilo para el contenedor de la lista de productos */
+.itemListContainer {
+  padding: 20px; /* Espaciado interno */
+  background-color: #121212; /* Color de fondo muy oscuro */
+  border-radius: 8px; /* Bordes redondeados */
+  max-width: 900px; /* Limita el ancho del contenedor */
+  margin: 20px auto; /* Centrando el contenedor con margen */
+  color: #fff; /* Color de texto blanco */
+  text-align: center; /* Alineación de texto central */
+}
+
+/* Estilo para el encabezado de la sección de productos */
+.itemListContainer h2 {
+  font-size: 2em; /* Tamaño de fuente */
+  margin-bottom: 20px; /* Espacio inferior */
+  color: #e74c3c; /* Color rojo acento */
+}
+
+/* Estilo para el mensaje de carga */
+.itemListContainer p {
+  font-size: 1.2em; /* Tamaño de la fuente para el mensaje de carga */
+  color: #ff6b6b; /* Color rojo claro para el mensaje de carga */
+}
+
+/* Estilo para la lista de productos */
+.itemList {
+  display: flex; /* Usar flexbox */
+  flex-wrap: wrap; /* Permitir que los productos se ajusten a múltiples líneas */
+  justify-content: center; /* Centrar productos */
+  margin-top: 10px; /* Espacio superior */
+}
+
+/* Estilo para los productos individuales en la lista (en el ItemList) */
+.product-item {
+  background-color: #1e1e1e; /* Fondo oscuro para el producto */
+  border: 1px solid #e74c3c; /* Borde rojo */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Sombra más intensa */
+  margin: 10px; /* Espacio entre los elementos */
+  padding: 15px; /* Espaciado interno */
+  width: 300px; /* Ancho fijo para cada producto */
+  transition: transform 0.2s; /* Transición suave */
+}
+
+/* Efecto al pasar el ratón sobre los productos */
+.product-item:hover {
+  transform: scale(1.05); /* Aumenta el tamaño ligeramente */
+  border-color: #ff3d3d; /* Color de borde más intenso al pasar */
+}

@@ -1,6 +1,50 @@
+/* Estilo para el contenedor de la lista de productos */
 .itemList {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 20px;
+  display: flex; /* Usar flexbox para alinear los productos en fila */
+  flex-wrap: wrap; /* Permitir que los productos se ajusten en varias líneas */
+  justify-content: center; /* Centrar los productos horizontalmente */
+  margin: 20px 0; /* Espacio superior e inferior */
+}
+
+/* Estilo para cada producto en la lista */
+.item {
+  background-color: #1e1e1e; /* Fondo gris oscuro para el producto */
+  border: 1px solid #ff6b6b; /* Borde rojo claro */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 15px; /* Espaciado interno */
+  margin: 10px; /* Espacio entre productos */
+  width: 250px; /* Ancho fijo para cada producto */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+  transition: transform 0.2s; /* Transición suave */
+}
+
+/* Efecto al pasar el ratón sobre el producto */
+.item:hover {
+  transform: scale(1.05); /* Escala ligeramente al pasar el ratón */
+}
+
+/* Estilo para el nombre del producto */
+.item h2 {
+  font-size: 1.5em; /* Tamaño de fuente del nombre */
+  color: #ffffff; /* Color del texto en blanco */
+  margin: 10px 0; /* Espacio superior e inferior */
+}
+
+/* Estilo para la imagen del producto */
+.item img {
+  width: 100%; /* Imagen ocupa todo el ancho del contenedor */
+  height: auto; /* Mantiene la proporción */
+  border-radius: 5px; /* Bordes redondeados para la imagen */
+}
+
+/* Estilo para la descripción y otros detalles del producto */
+.item p {
+  margin: 5px 0; /* Espaciado entre párrafos */
+  color: #cccccc; /* Color gris claro para el texto */
+}
+
+/* Estilo para el precio del producto */
+.item .price {
+  font-size: 1.2em; /* Tamaño de fuente para el precio */
+  color: #e74c3c; /* Color rojo para resaltar el precio */
 }

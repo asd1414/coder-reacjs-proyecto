@@ -1,24 +1,52 @@
-.navbar{
-    width: 100%;
-    height: 60px;
-    background-color: #000000;
-    color: white;
-    display: flex;
-    justify-content: space-between;
+/* Estilo del contenedor de navegación */
+.navbar {
+  display: flex; /* Usamos flexbox para disposición en línea */
+  align-items: center; /* Centrar verticalmente los elementos */
+  justify-content: space-between; /* Espacio entre el logo, las categorías y el carrito */
+  background-color: #000000; /* Color de fondo oscuro */
+  padding: 15px 20px; /* Espaciado interno */
 }
 
-.gameverseLogo{
-    height: 50px;
-    margin: 10px;
+/* Estilo para el logo de la tienda */
+.gameverseLogo {
+  width: 120px; /* Ajusta el tamaño del logo */
+  height: auto; /* Mantiene la proporción */
 }
 
-.categorias{
-    display: flex;
-    list-style: none;
-    align-items: end;
+/* Estilo para la lista de categorías */
+.categorias {
+  list-style: none; /* Elimina los puntos de la lista */
+  margin: 0; /* Sin margen */
+  padding: 0; /* Sin padding */
+  display: flex; /* Disposición en fila */
 }
 
-.categorias li{
-    margin: 0 15px;
+/* Estilo para cada elemento de la categoría */
+.categorias li {
+  margin: 0 15px; /* Espacio entre las categorías */
 }
 
+/* Estilo para los enlaces de las categorías */
+.categorias li a {
+  color: #fff; /* Color del texto blanco */
+  text-decoration: none; /* Sin subrayado */
+  font-weight: bold; /* Texto en negrita */
+  position: relative; /* Para el efecto de subrayado al pasar */
+  transition: color 0.3s; /* Transición suave para el color */
+}
+
+/* Efecto al pasar el ratón sobre los enlaces de categorías */
+.categorias li a:hover {
+  color: #3498db; /* Color azul al pasar el ratón */
+}
+
+/* Efecto de subrayado al pasar el ratón */
+.categorias li a:hover::after {
+  content: ""; 
+  position: absolute; 
+  width: 100%; 
+  height: 2px; 
+  background: #3498db; /* Color azul del subrayado */
+  bottom: -5px; /* Posición del subrayado */
+  left: 0; 
+}
