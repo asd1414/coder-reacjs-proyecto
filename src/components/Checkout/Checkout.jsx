@@ -3,7 +3,7 @@ import { CartContext } from "../../context/CartContext";
 import { addDoc, collection } from "firebase/firestore";
 import db from "../../db/db.js";
 import FormCheckOut from "../FormCheckOut/FormCheckOut";
-import './checkout.css'
+import './Checkout.css'
 
 
 const Checkout = () => {
