@@ -1,0 +1,29 @@
+.checkout-container {
+  padding: 20px; 
+  background-color: #2b2b2b; 
+  border-radius: 8px; 
+  max-width: 600px; 
+  margin: 20px auto; 
+  color: #fff; 
+  text-align: center; 
+}
+
+.checkout-container h2 {
+  font-size: 2em; 
+  color: #e74c3c; 
+  margin-bottom: 10px; 
+}
+
+.checkout-container p {
+  font-size: 1.2em; 
+  color: #ffffff; 
+}
+
+.no-order-message {
+  font-size: 1.2em; 
+  color: #ccc; 
+}
+
+.form-checkout-container {
+  margin-top: 20px; 
+}

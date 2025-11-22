@@ -1,10 +1,48 @@
-.cantidadYBoton{
-    margin-top: 10px;
+.cantidadYBoton {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  margin: 20px 0; 
 }
 
+.itemCount {
+  display: flex; 
+  align-items: center; 
+}
 
-.itemCount{
-    display: flex;
-    
-    gap: 10px;
+.itemCount button {
+  background-color: #3498db; 
+  color: white; 
+  border: none; 
+  border-radius: 4px; 
+  padding: 10px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+  font-size: 1.5em; 
+}
+
+.itemCount button:hover {
+  background-color: #2980b9; 
+}
+
+.itemCount p {
+  margin: 0 10px; 
+  font-size: 1.5em; 
+  color: #ffffff; 
+}
+
+.addToCartButton {
+  background-color: #e74c3c; 
+  color: white; 
+  border: none; 
+  border-radius: 4px; 
+  padding: 12px 20px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+  font-size: 1.2em; 
+  margin-top: 15px; 
+}
+
+.addToCartButton:hover {
+  background-color: #c0392b; 
 }

@@ -1,110 +1,99 @@
-/* Estilo del contenedor principal del carrito */
 .cart-container {
   padding: 20px;
-  background-color: #1b1b1b; /* Color oscuro de fondo */
+  background-color: #1b1b1b; 
   border-radius: 8px;
-  max-width: 800px; /* Limita el ancho del carrito */
-  margin: 0 auto; /* Centra el carrito en la página */
-  color: #fff; /* Color del texto blanco */
+  max-width: 800px; 
+  margin: 0 auto; 
+  color: #fff; 
 }
 
-/* Estilo para el mensaje del carrito vacío */
 .empty-cart {
-  text-align: center; /* Centro el texto */
-  color: #e74c3c; /* Color rojo para el mensaje de error */
-  font-size: 1.5em; /* Aumenta el tamaño de fuente */
+  text-align: center; 
+  color: #e74c3c; 
+  font-size: 1.5em; 
 }
 
-/* Estilo para el mensaje de volver al inicio */
 .empty-cart a {
-  color: #3498db; /* Color del enlace */
-  text-decoration: none; /* Sin subrayado */
-  font-weight: bold; /* Texto en negrita */
+  color: #3498db; 
+  text-decoration: none; 
+  font-weight: bold; 
 }
 
 .empty-cart a:hover {
-  text-decoration: underline; /* Subrayado al pasar */
+  text-decoration: underline; 
 }
 
-/* Estilo para cada producto en el carrito */
 .product-item {
-  display: flex; /* Usar flexbox para alinear elementos */
-  align-items: center; /* Centra verticalmente */
-  justify-content: space-between; /* Espacio entre etiquetas */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 15px;
   margin: 10px 0;
-  background-color: #2c2c2c; /* Fondo gris oscuro para los elementos del carrito */
-  border: 1px solid #444; /* Borde más claro */
+  background-color: #2c2c2c; 
+  border: 1px solid #444; 
   border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
-  transition: transform 0.2s; /* Transición suave en hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.2s;
 }
 
 .product-item:hover {
-  transform: scale(1.02); /* Escala ligeramente al pasar el ratón */
+  transform: scale(1.02); 
 }
 
-/* Estilo para el nombre del producto */
 .product-item h2 {
-  margin: 0; /* Elimina el margen por defecto */
-  font-size: 1.4em; /* Tamaño de fuente */
-  color: #fff; /* Color del texto */
+  margin: 0; 
+  font-size: 1.4em; 
+  color: #fff; 
 }
 
-/* Estilo para la imagen del producto */
 .product-item img {
-  width: 70px; /* Ancho de la imagen */
-  height: auto; /* Mantiene la proporción de la imagen */
-  margin-right: 15px; /* Espacio entre imagen y texto */
-  border-radius: 5px; /* Bordes redondeados para la imagen */
+  width: 70px; 
+  height: auto; 
+  margin-right: 15px; 
+  border-radius: 5px; 
 }
 
-/* Estilo de los párrafos dentro de cada producto */
 .product-item p {
-  margin: 5px 0; /* Márgenes de los párrafos */
-  color: #ccc; /* Color del texto para los párrafos */
+  margin: 5px 0; 
+  color: #ccc; 
 }
 
-/* Estilo del botón de eliminar */
 .product-item button {
-  background-color: #e74c3c; /* Color de fondo (rojo) */
-  color: white; /* Color del texto */
-  border: none; /* Sin borde */
-  border-radius: 4px; /* Borde redondeado */
-  cursor: pointer; /* Cambia el cursor al pasar */
-  padding: 8px 12px; /* Espaciado interno */
-  transition: background-color 0.3s; /* Transición suave de color */
+  background-color: #e74c3c;
+  color: white; 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer;
+  padding: 8px 12px;
+  transition: background-color 0.3s; 
 }
 
 .product-item button:hover {
-  background-color: #c0392b; /* Color más oscuro al pasar */
+  background-color: #c0392b; 
 }
 
-/* Estilo para el total del carrito */
 .total-price {
-  font-size: 1.5em; /* Tamaño de la fuente del total */
-  color: #27ae60; /* Color verde */
-  margin: 20px 0; /* Espacio superior e inferior */
+  font-size: 1.5em; 
+  color: #27ae60; 
+  margin: 20px 0; 
 }
 
-/* Estilo de los botones de acción */
 .button-container {
-  display: flex; /* Disposición en fila */
-  justify-content: space-between; /* Espacio entre botones */
-  margin-top: 20px; /* Espacio superior */
+  display: flex; 
+  justify-content: space-between; 
+  margin-top: 20px; 
 }
 
 .button-container button {
-  background-color: #3498db; /* Color de fondo */
-  color: white; /* Color del texto */
-  border: none; /* Sin borde */
-  border-radius: 4px; /* Borde redondeado */
-  cursor: pointer; /* Cambia el cursor al pasar */
-  padding: 10px 15px; /* Espaciado interno */
-  transition: background-color 0.3s; /* Transición suave de color */
+  background-color: #3498db; 
+  color: white; 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  padding: 10px 15px; 
+  transition: background-color 0.3s; 
 }
 
 .button-container button:hover {
-  background-color: #2980b9; /* Color más oscuro al pasar el ratón
-} */
+  background-color: #2980b9; 
 }

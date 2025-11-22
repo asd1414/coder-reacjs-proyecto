@@ -58,14 +58,23 @@ const Checkout = () => {
 
 
   return (
-    <div>
+    <div className="checkout-container">
       {
         orderId ? (
           <div>
             <h2>Orden generada correctamente</h2>
-            <p>guarde el identificador de su compra: {orderId}</p>
+            <p>Guarde el identificador de su compra: {orderId}</p>
           </div>
-        ) : (<FormCheckOut dataForm={dataForm} handleChangeInput={handleChangeInput} sendOrder={sendOrder} />)
+        ) : (
+          <div className="form-checkout-container">
+            <form onSubmit={sendOrder}>
+              <input type="text" name="fullname" value={dataForm.fullname} onChange={handleChangeInput} placeholder="Nombre Completo" />
+              <input type="text" name="phone" value={dataForm.phone} onChange={handleChangeInput} placeholder="Número de Teléfono" />
+              <input type="email" name="email" value={dataForm.email} onChange={handleChangeInput} placeholder="Correo Electrónico" />
+              <button type="submit">Finalizar Compra</button>
+            </form>
+          </div>
+        )
       }
     </div>
   )
